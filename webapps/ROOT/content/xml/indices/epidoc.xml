@@ -15,7 +15,7 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="symbol">
+      <!--<div xml:id="symbol">
         <head>Symbols</head>
 
         <div type="notes">
@@ -25,9 +25,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="abbreviation">
+      <!--<div xml:id="abbreviation">
         <head>Abbreviations</head>
 
         <div type="headings">
@@ -45,9 +45,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="fragment">
+      <!--<div xml:id="fragment">
         <head>Fragments</head>
 
         <div type="headings">
@@ -65,9 +65,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="numeral">
+      <!--<div xml:id="numeral">
         <head>Numerals</head>
 
         <div type="headings">
@@ -85,9 +85,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="word">
+      <!--<div xml:id="word">
         <head>Words</head>
 
         <div type="headings">
@@ -105,9 +105,28 @@
             </item>
           </list>
         </div>
+      </div>-->
+      
+      <div xml:id="epithet">
+        <head>Epithets</head>
+        
+        <div type="headings">
+          <list>
+            <item>Epithet</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
       </div>
 
-      <div xml:id="lemma">
+      <!--<div xml:id="lemma">
         <head>Lemmata</head>
 
         <div type="headings">
@@ -125,7 +144,7 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
       <div xml:id="person_name">
         <head>Personal Names</head>
@@ -146,7 +165,7 @@
         </div>
       </div>
       
-      <div xml:id="prosopography">
+      <!--<div xml:id="prosopography">
         <head>Prosopography</head>
         <div type="headings">
           <list>
@@ -156,6 +175,25 @@
         </div>
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+        </div>
+      </div>-->
+      
+      <div xml:id="group">
+        <head>Groups</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
         </div>
       </div>
       
@@ -173,7 +211,7 @@
       </div>
       
       <div xml:id="mentioned_places">
-        <head>Toponyms</head>
+        <head>Places</head>
         <div type="headings">
           <list>
             <item>Name</item>
@@ -186,7 +224,7 @@
         </div>
       </div>
       
-      <div xml:id="institutions">
+      <!--<div xml:id="institutions">
         <head>Institutions</head>
         <div type="headings">
           <list>
@@ -199,7 +237,8 @@
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div>
-      </div>
+      </div>-->
+      
     </body>
   </text>
 </TEI>
